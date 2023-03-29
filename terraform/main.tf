@@ -25,7 +25,7 @@ terraform {
 }
 
 resource "aws_s3_bucket" "terraform_state" {
-  bucket = "malconip-terraform-state"
+  bucket = "balinux"
 
   versioning {
     enabled = true
